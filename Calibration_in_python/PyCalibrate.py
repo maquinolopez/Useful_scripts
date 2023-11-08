@@ -1,13 +1,17 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Wed Nov  8 08:49:00 2023
+PyCalibrate.py
 
-@author: ma2060
+This script contains a function to calibrate radiocarbon dates using standard calibration curves.
+
+The Calibration() function takes a radiocarbon age, standard deviation, calibration curve, and density percentage as inputs. It returns the calendar age ranges containing the specified percentage of probability density.
+
+Plotting and printing of results is also included.
+
+Author: Marco A Aquino-López
+
 """
-
-# Calibration software
-
 
 import pandas as pd
 from numpy import array, vstack, cumsum, where, max , min, sum, copy, diff, array_split
@@ -17,8 +21,7 @@ from scipy.signal import find_peaks
 
 
 
-
-def Calibration(x,sd,cc,percentage=95.0 ,cc_folder='/Users/ma2060/Documents/PyPlum/Calibration Curves/'):
+def Calibration(x,sd,cc,percentage=95.0 ,cc_folder='path/to/calibration/curves'):
     print(cc)
     # Define file paths for each calibration curve
     if isinstance(cc, str):
@@ -134,11 +137,11 @@ def Calibration(x,sd,cc,percentage=95.0 ,cc_folder='/Users/ma2060/Documents/PyPl
 
 
 
+# Example of the use of the Calibration function
 
+# test = Calibration(1000, 20, 'IntCal20.14C', percentage=90,cc_folder='/Users/ma2060/Documents/PyPlum/Calibration Curves/')
 
-test = Calibration(1000, 20, 'IntCal20.14C', percentage=90,cc_folder='/Users/ma2060/Documents/PyPlum/Calibration Curves/')
-
-test
+# test
 
 
 
