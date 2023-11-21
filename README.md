@@ -13,6 +13,8 @@ R scripts to calculate accumulation rates from Plum age-depth model outputs.
 - Adds accumulation rate columns to Plum age file
 - Outputs accumulation rates by age to new file
 
+---
+
 ### PyCalibrate
 
 Python script for radiocarbon date calibration. 
@@ -21,6 +23,16 @@ Python script for radiocarbon date calibration.
 - Calculates calendar age ranges containing specified probability
 - Plots probability density and highlighted ranges
 - Handles IntCal20, SHCal20, Marine20 calibration curves
+
+
+---
+
+### Cpp distros
+
+The folder "Cpp_Distributions" contains the `Distributions.cpp` file, which integrates with Rcpp to provide functions for calculating log likelihoods of statistical distributions in R. The file includes functions for the Normal, T (currently a placeholder), and Gamma distributions.
+
+
+
 
 ## Usage
 
