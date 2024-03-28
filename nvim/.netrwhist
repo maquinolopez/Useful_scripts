@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =1
+let g:netrw_dirhist_1='/Users/maquinolopez/github/Paper_Simulations/Manuscript'
+let g:netrw_dirhist_0='/Users/maquinolopez/github/Paper_Simulations/.git'
+let g:netrw_dirhist_9='/Users/maquinolopez/MEGA/Inversiones'
+let g:netrw_dirhist_8='/Users/maquinolopez/github/Bayesian Analysis of Dilution Series/Code'
+let g:netrw_dirhist_7='/Users/maquinolopez/github/UNAM_presentacion'
+let g:netrw_dirhist_6='/Users/maquinolopez/github/Bayesian Analysis of Dilution Series/Code'
+let g:netrw_dirhist_5='/Users/maquinolopez/.config/nvim'
+let g:netrw_dirhist_4='/Users/maquinolopez/.config/nvim/ftplugin'
+let g:netrw_dirhist_3='/Users/maquinolopez/.config/nvim'
+let g:netrw_dirhist_2='/Users/maquinolopez/.config'

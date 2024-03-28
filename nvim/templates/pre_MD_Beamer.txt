@@ -1,0 +1,19 @@
+---
+title: "Title"
+author: Marco A. Aquino-López
+date: ""
+theme:
+- Antibes
+header-includes:
+   \usepackage{graphicx}
+   \usepackage{fancyhdr}
+   \usepackage{tabularx}
+   \usepackage{lipsum}
+   \usepackage{movie15}
+   \pagestyle{fancy}
+   \setlength\headheight{36pt}
+   \fancyhead[R]{\includegraphics[height=1.1cm]{./img/MUlogo.png}}
+   \fancyfoot[LE,RO]{GPIM}
+output: beamer_presentation
+---
+

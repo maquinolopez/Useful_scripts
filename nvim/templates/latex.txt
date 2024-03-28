@@ -1,0 +1,28 @@
+\documentclass [11pt] {article}
+\usepackage [utf8] {inputenc}
+\usepackage {graphicx}
+\usepackage {amsfonts}
+\usepackage {amsthm}
+\usepackage {amsmath}
+\usepackage{natbib}
+\bibliographystyle{apalike}
+
+%.____         ___________    ____  ___ 
+%|    |   _____\__    _______ \   \/  / 
+%|    |   \__  \ |    |_/ __ \ \     /  
+%|    |___ / __ \|    |\  ___/ /     \  
+%|_______ (____  |____| \___  /___/\  \ 
+%        \/    \/           \/      \_/ 
+                                       
+\title{}
+\date{}
+\begin{document}
+\maketitle{}
+
+
+
+
+\bibliographystyle{apa}
+\bibliography{../Bibliography.bib}
+\end{document}
+

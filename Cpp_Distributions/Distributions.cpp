@@ -6,7 +6,7 @@ using namespace Rcpp;
 double LogNormalDensity(double x, double mean, double std_dev) {
     // Sample from normal distribution
     double nx = (x - mean)/std_dev;
-    double log_sig = log(std_dev * std_dev);
+    double log_sig = log(std_dev );
     double sqr_x = nx *nx;
     double densi = -log_sig - .5 * sqr_x ;
     return densi;

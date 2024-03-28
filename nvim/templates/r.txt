@@ -1,0 +1,14 @@
+###################################################
+# Title  
+# Description
+# Marco A. Aquino-López
+###################################################
+rm(list = ls()) 	# clean R environment
+
+# Load libraries
+
+
+
+
+
+

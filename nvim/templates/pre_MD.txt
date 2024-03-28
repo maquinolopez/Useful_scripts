@@ -1,0 +1,12 @@
+---
+title: ""
+author: Marco A. Aquino-López
+date: 
+output: slidy_presentation
+---
+
+
+
+
+
+
